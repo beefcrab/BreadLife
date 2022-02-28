@@ -27,7 +27,7 @@ function Navbar(){
 
     const generateLinks = recipes.map((list, i) => (
 
-        <Link exact to="/recipe" key={i}>
+        <Link exact to="/BreadLife/recipe" key={i}>
             <li className="option"  value={list.id}  onClick={(e) =>closeMobileMenuTest(e)}>
                 {list.flavour}
             </li>
@@ -37,7 +37,7 @@ function Navbar(){
   
   return (
     <div className="header">
-        <Link to="/home">
+        <Link to="/BreadLife/home">
         <div className="logo-nav">
             <div className="logo-container">
                 <h4 className="header-title">

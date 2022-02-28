@@ -11,7 +11,7 @@ function HomePage(){
     }
 
     const generatePhotos = recipeList.data.map((list, i) => (
-       <Link exact to="/recipe" >
+       <Link exact to="/BreadLife/recipe" >
             <div className="photo" id={list.id} onClick={(e) => test(e)}>
                 <img className="img-container"
                     id={list.id}
