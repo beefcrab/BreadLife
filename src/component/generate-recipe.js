@@ -9,11 +9,11 @@ function GenerateRecipe({recipe, loaves}){
 
     return(
         <div className="ingred-container">
-            <div className="row">
+            {/* <div className="row"> */}
                 <ul className="labels">
                     {ingredietsDisplay}
                 </ul>
-            </div>
+            {/* </div> */}
         </div>
     )
 }
