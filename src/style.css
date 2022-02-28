@@ -17,7 +17,6 @@ a{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 80px;
-  
   grid-template-areas: 
     "h h h h h h"
     "c c c c c c";
