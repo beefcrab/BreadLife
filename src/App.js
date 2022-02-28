@@ -15,8 +15,7 @@ function App() {
       <Navbar />
       
       <Routes>
-          <Route exact path="/BreadLife" element={<Home />} />  
-          <Route path="/BreadLife/home" element={<Home />} />  
+          <Route exact path="/BreadLife" element={<Home />} />   
           <Route exact path="/BreadLife/recipe" element={<Template />} /> 
       </Routes>
     </div>

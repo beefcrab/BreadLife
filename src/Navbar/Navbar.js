@@ -37,7 +37,7 @@ function Navbar(){
   
   return (
     <div className="header">
-        <Link to="/BreadLife/home">
+        <Link to="/BreadLife">
         <div className="logo-nav">
             <div className="logo-container">
                 <h4 className="header-title">
