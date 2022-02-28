@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BreadCode/static/css/main.d4a2f573.css",
+    "main.js": "/BreadCode/static/js/main.f43bfaa9.js",
+    "index.html": "/BreadCode/index.html",
+    "main.d4a2f573.css.map": "/BreadCode/static/css/main.d4a2f573.css.map",
+    "main.f43bfaa9.js.map": "/BreadCode/static/js/main.f43bfaa9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4a2f573.css",
+    "static/js/main.f43bfaa9.js"
+  ]
+}
