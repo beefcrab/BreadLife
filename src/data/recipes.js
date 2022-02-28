@@ -50,6 +50,15 @@ export default {
                         {ingred: "Poppy Seeds", weight: 10}
 
                     ]
+                },
+                {
+                    flavour:  "Roasted Garlic and Olives",
+                    id: 4,
+                    recipe:[
+                        {ingred: "Roasted Garlic", weight: 50},
+                        {ingred: "Olvies", weight: 50},
+                        {ingred: "Rosemary", weight: 16}
+                    ]
                 }
             ],
             quantity:[1,2,3,4,5]
