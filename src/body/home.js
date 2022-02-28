@@ -1,5 +1,4 @@
 import React, {useState, useContext, useEffect} from 'react';
-import "./home.css"
 import {Link} from "react-router-dom"
 import {Context} from "../Context"
 

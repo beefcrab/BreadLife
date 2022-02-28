@@ -39,17 +39,9 @@ a{
 
 
 .container-home{
-  
   height:900px;
   grid-area: c;
-  /* background-color: pink; */
   padding:3em 10em 0em 7em;
- 
-
- 
-  
-  /* display: flex;
-  justify-content: center; */
 }
 
 .container-photo{
@@ -58,9 +50,6 @@ a{
   grid-template-columns: repeat(auto-fit, 300px);
   grid-auto-rows: 200px; 
   margin:auto;
-  /* width:80%; */
-
-  /* justify-content: space-evenly; */
   justify-items: center;
   align-content: space-evenly;
   align-items: center;
@@ -99,20 +88,12 @@ img:hover ~ .centered{
 }
 
 .photo{
-  /* margin:0 auto; */
   position: relative;
   text-align: center;
   color: white;
   height:200px;
-  
   width:300px;
   background-color:bisque;
-}
-
-
-
-h3, h1{
-  /* font-weight: 400; */
 }
 
 p{
@@ -125,8 +106,6 @@ li{
 }
 
 
-
-
 @media only screen and (max-width: 750px) {
   .recipe-container{
     grid-area: c;
@@ -137,18 +116,13 @@ li{
   }
 
   .container-home{
-  /* height:600px; */
-  grid-area: c;
-  background-color: white;
-  padding:1em 0em 0em 0em;
-  display: flex;
-
-  display: grid;
-  grid-gap: 5px;
-  /* grid-template-columns: repeat(auto-fit, 300px); */
-  grid-auto-rows: 200px;
-  /* grid-auto-flow: dense; */
-
+    grid-area: c;
+    background-color: white;
+    padding:1em 0em 0em 0em;
+    display: flex;
+    display: grid;
+    grid-gap: 5px;
+    grid-auto-rows: 200px;
   }
 
   .container-photo {
@@ -157,12 +131,10 @@ li{
     grid-template-columns: 100%;
     grid-auto-rows: 200px;
     margin: auto;
-    /* width: 80%; */
-    /* justify-content: space-evenly; */
     justify-items: center;
     align-content: space-evenly;
     align-items: center;
-}
+  }
 
 }
 
