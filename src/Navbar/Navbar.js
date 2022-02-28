@@ -17,7 +17,6 @@ function Navbar(){
     const closeMobileMenu = () => setClick(false);
 
     function closeMobileMenuTest(e){
-        //console.log(e)
         setClick(false)
         console.log(e.target.value)
         setRecipe(e.target.value)

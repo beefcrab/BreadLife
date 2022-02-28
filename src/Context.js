@@ -8,7 +8,6 @@ function ContextProvider({children}) {
     const [renderRecipe, setRenderRecipe] =useState(0)
 
     function setRecipe(id=0){
-        //console.log("from context ", id)
         setRenderRecipe(id)
     }
 

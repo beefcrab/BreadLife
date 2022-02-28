@@ -10,10 +10,7 @@ function HomePage(){
         setRenderRecipe(e.target.id)
     }
 
-    // console.log(recipeList.data)
-
     const generatePhotos = recipeList.data.map((list, i) => (
-       //console.log(list.flavour, list.id),
        <Link exact to="/recipe" >
             <div className="photo" id={list.id} onClick={(e) => test(e)}>
                 <img className="img-container"

@@ -1,18 +1,14 @@
-////Template for recipes
-//populate data in recipes.js
-
 import React, {useState, useContext, useEffect} from 'react';
 import "./template.css"
 
-//conponents
+
 import GenerateRecipe from "../component/generate-recipe"
 import Quantity from '../component/generate-quantityButtons';
 
-//context
+
 import {Context} from "../Context"
 
 function Template(){
-    //get from context
     const {recipeList, renderRecipe} = useContext(Context)
 
     const [recipe, setRecipe] = useState(recipeList.data[renderRecipe].recipe)
@@ -25,27 +21,22 @@ function Template(){
     const [loaves, setLoaves] = useState(recipeList.data[renderRecipe].quantity[1])
 
     function numLoaves(n=1, e){
-        //console.log("number loaf",e)
         setLoaves(n)
         setClick(true)
     }
 
     const handleSelect=(e)=>{
-        //console.log("handle this: ", e)
         setBreadFlavour(e)
     }
 
-    //dropdown to pick your flavour  
     const flavourDropdown = flavourRecipes.map((breadType, i) =>(
         <option value={breadType.id} key={i}>
             {breadType.flavour}
         </option>
     ))
 
-    //generates a dropdown if recipe has a flavour inclusion
     function selectFlav(){
         if(breadFlavour == 0){      
-            //do nothing
         }else{
             const flavourArray = []
             flavourRecipes[breadFlavour].recipe.map((ingred, i) =>{
@@ -80,12 +71,10 @@ function Template(){
     }
 
     useEffect(() => {
-        //console.log("befre", recipe, flavourRecipes)
         setRecipe(recipeList.data[renderRecipe].recipe)
         setButtons(recipeList.data[renderRecipe].quantity)
         setLoaves(recipeList.data[renderRecipe].quantity[0])
         setFlavourRecipes(recipeList.data[renderRecipe].inclusions)
-        //console.log("after", recipe, flavourRecipes)
     }, [renderRecipe])
 
     return(
