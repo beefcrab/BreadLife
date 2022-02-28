@@ -28,8 +28,8 @@ function Navbar(){
 
     const generateLinks = recipes.map((list, i) => (
 
-        <Link exact to="/recipe">
-            <li className="option"  value={list.id} key={i} onClick={(e) =>closeMobileMenuTest(e)}>
+        <Link exact to="/recipe" key={i}>
+            <li className="option"  value={list.id}  onClick={(e) =>closeMobileMenuTest(e)}>
                 {list.flavour}
             </li>
         </Link>
@@ -47,7 +47,7 @@ function Navbar(){
             </div>
         </div>
         </Link>
-        <div class="dropdown-header">
+        <div className="dropdown-header">
             <button className="mobile-menu" onClick={handleClick}>
                 <p>RECIPES {
                     click ?
@@ -57,10 +57,7 @@ function Navbar(){
                     }</p>
             </button>
             <ul className={click ? "nav-options active" : "nav-options"}>
-                {/* {generateLinks} */}
-                {/* <li className="option" onClick={closeMobileMenu}>
-                    <a>Sourdough Naan</a>
-                </li> */}
+ 
                 {generateLinks}
             </ul>
         </div>
