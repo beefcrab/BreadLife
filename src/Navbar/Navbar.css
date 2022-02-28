@@ -39,7 +39,6 @@
     display: flex;
     width: 27%;
     height: 70px;
-    /* height: 350px; */
     position: absolute;
     top: 64px;
     right: -100%;
@@ -51,7 +50,6 @@
   }
 
   .nav-options.active {
-    /* background: #a4c5c5; */
     right: revert;
     opacity: 1;
     transition: all 0.5s ease;
@@ -88,9 +86,6 @@
     display: none;
   }
   
-  /* .option :hover {
-    color: white;
-  } */
   .signin-up {
     display: flex;
     padding: 0px 5px;
@@ -118,11 +113,8 @@
     padding-bottom: 0px;
   }
 
-  /*Mobile View */
   @media (max-width: 648px) {
 
-
-    
     .dropdown-header{
       padding-right:1em;
     }
@@ -145,11 +137,9 @@
     .nav-options {
       display: none;
       height: 100px;
-      /* height: 350px; */
       position: absolute;
       top: 64px;
       left: 0;
-      /* right: -100%; */
       opacity: 0;
       transition: all 0.2s ease;
       flex-direction: column;
@@ -167,7 +157,7 @@
       z-index: 1;
       align-content: center;
       padding-left: 0px;
-    } */
+    } 
   
     .menu-icon {
       width: 45px;
