@@ -16,7 +16,7 @@ function Quantity(props){
 
     return(
         <div>
-            <button className="button-loaf">#</button>
+            <button className="button-hash">#</button>
             {setNumberButtons}
         </div>
     )
