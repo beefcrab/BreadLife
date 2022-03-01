@@ -6,7 +6,7 @@ ul{
 }
 
 .title{
-    padding: 25px 0px 10px 30px;
+    padding: 25px 20px 10px 0px;
     align-items: center;
     font-size: large;
     background-color: white;
@@ -157,12 +157,63 @@ ul{
   transform: translateY(0);
 }
 
+
+.button-OG {
+  margin-top: 50px;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgb(0 0 0 / 2%) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  max-width: 10.5rem;
+  max-height: 3rem;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-OG:hover,
+.button-OG:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.fa-window{
+  padding-bottom: 0px;
+  padding-right: 3px;
+}
+
 @media only screen and (max-width: 750px) {
     .ingred-container{
         height:100%;
         grid-gap: 3px;
         background-color: white;
         
+    }
+
+    .button-OG{
+      margin-top:0;
+    }
+
+    .title{
+      padding:0;
     }
 
 }

@@ -41,7 +41,7 @@ function Navbar(){
         <div className="logo-nav">
             <div className="logo-container">
                 <h4 className="header-title">
-                BREAD 
+                BREAD LIFE
                 </h4>
             </div>
         </div>

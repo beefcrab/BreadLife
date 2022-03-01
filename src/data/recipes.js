@@ -3,7 +3,7 @@ export default {
         {
             flavour: "Open-Crumb Loaf",
             id:0,
-            source:"open-crumb",
+            source:"https://www.youtube.com/watch?v=HlJEjW-QSnQ&ab_channel=FullProofBaking",
             conponent:"OpenCrumb",
             photoUrl:"https://i.ibb.co/CnGG4zp/BFDB22-CF-4677-4-E69-82-E3-10-D9-C49-F5-E87-16839-0000057-D966-A2-A04.jpg",
             recipe:[
@@ -66,7 +66,7 @@ export default {
         {
             flavour: "Pita Pockets",
             id:1,
-            source:"pita-pocket",
+            source:"https://www.youtube.com/watch?v=M48dZTOd2jY&t=95s&ab_channel=AutumnKitchen",
             conponent:"PitaPocket",
             photoUrl:"https://i.ibb.co/p3RqWh0/Pita-bread.jpg",
             recipe:[
@@ -84,7 +84,7 @@ export default {
         {
             flavour: "Sourdough Naan",
             id:2,
-            source:"naan",
+            source:"https://zestysouthindiankitchen.com/sourdough-naan/?fbclid=IwAR2Rj3L7snLw7yiJl6KU9jeIboMU237Yg1ORSKZc5HXzxI9XYHeXlwRn1NU",
             conponent:"Naan",
             photoUrl:"https://i.ibb.co/X7wYhrF/gluten-free-naan-bread-recipe-featured-735x490.jpg",
             recipe:[
