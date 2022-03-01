@@ -116,7 +116,23 @@ export default {
             ],
             inclusions:[],
             quantity:[1,2]
+        },
+        {
+            flavour: "Sourdough Pizza",
+            id:4,
+            source:"https://alexandracooks.com/2020/05/01/simple-sourdough-pizza-a-step-by-step-guide/",
+            conponent:"Naan",
+            photoUrl:"https://i.ibb.co/LnmqQ6C/theperfectloaf-sourdough-pizza-dough-20.jpg",
+            recipe:[
+                {ingred: "Water", weight: 95},
+                {ingred: "Sourdough Starter", weight: 25},
+                {ingred: "Salt", weight: 2.5}, 
+                {ingred: "Bread Flour", weight: 125}   
+            ],
+            inclusions:[],
+            quantity:[2,4,6,8]
         }
+
 
     ]
 }
