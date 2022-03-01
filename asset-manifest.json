@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BreadLife/static/css/main.e747fd1e.css",
-    "main.js": "/BreadLife/static/js/main.6e7d1d7f.js",
+    "main.js": "/BreadLife/static/js/main.3b7728a2.js",
     "index.html": "/BreadLife/index.html",
     "main.e747fd1e.css.map": "/BreadLife/static/css/main.e747fd1e.css.map",
-    "main.6e7d1d7f.js.map": "/BreadLife/static/js/main.6e7d1d7f.js.map"
+    "main.3b7728a2.js.map": "/BreadLife/static/js/main.3b7728a2.js.map"
   },
   "entrypoints": [
     "static/css/main.e747fd1e.css",
-    "static/js/main.6e7d1d7f.js"
+    "static/js/main.3b7728a2.js"
   ]
 }
