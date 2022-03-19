@@ -143,11 +143,15 @@ export default {
                 {ingred: "Eggs ", weight: 90},
                 {ingred: "Milk", weight: 60}, 
                 {ingred: "Plain Flour", weight: 60},
-                {ingred: "Oil", weight: 50},
+                {ingred: "Oil", weight: 40},
                 {ingred: "Salt", weight: 5},
-                {ingred: "Peppe", weight: 10},
-                {ingred: "Chilli Flakes", weight: 10}
-
+                {ingred: "Pepper", weight: 10},
+                {ingred: "Chilli Flakes", weight:10},
+                {ingred: "Mixed Vegetables", weight: 50},
+                {ingred: "Cheese", weight: 50},
+                {ingred: "Bacon Bits", weight: 25},
+                {ingred: "Jalapenos", weight: 25},
+                {ingred: "Whatever is in the fridge", weight: 50}
             ],
             inclusions:[],
             quantity:[1,2,3]
