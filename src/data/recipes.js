@@ -144,6 +144,7 @@ export default {
                 {ingred: "Milk", weight: 60}, 
                 {ingred: "Plain Flour", weight: 60},
                 {ingred: "Oil", weight: 40},
+                {ingred: "Salt", weight: 15},
                 {ingred: "Salt", weight: 5},
                 {ingred: "Pepper", weight: 10},
                 {ingred: "Chilli Flakes", weight:10},
