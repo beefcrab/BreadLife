@@ -1,6 +1,6 @@
 import React, {useState, useContext, useEffect} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquareUpRight, faWindowMaximize } from '@fortawesome/free-solid-svg-icons'
+import { faWindowMaximize } from '@fortawesome/free-solid-svg-icons'
 import "./template.css"
 
 
@@ -84,24 +84,18 @@ function Template(){
         <div className="recipe-container">
 
             <div className="ingred-div">
-            <div className="title"><h1>{recipeList.data[renderRecipe].flavour}</h1></div>
+                <div className="title"><h1>{recipeList.data[renderRecipe].flavour}</h1></div>
 
-            <div className="button-OG">
-                <a 
-                    target="_blank" 
-                    href={recipeList.data[renderRecipe].source}>
-                        <FontAwesomeIcon className="fa-window" icon={faWindowMaximize} /> 
-                        OG Recipe 
-                       
-                </a>
-            </div>
-                            
-
+                <div className="button-OG">
+                    <a 
+                        target="_blank" 
+                        href={recipeList.data[renderRecipe].source}>
+                            <FontAwesomeIcon className="fa-window" icon={faWindowMaximize} /> 
+                            OG Recipe 
+                    </a>
+                </div>
             </div>
             
-
-
-
             <br />
 
             <Quantity 
@@ -121,10 +115,6 @@ function Template(){
                 <p></p>
             }
            
-            
-
-
-
             <div className="ingredients"><h3>INGREDIENTS</h3></div>
 
             <GenerateRecipe 

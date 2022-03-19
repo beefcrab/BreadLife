@@ -131,6 +131,26 @@ export default {
             ],
             inclusions:[],
             quantity:[2,4,6,8]
+        },
+        {
+            flavour: "Sourdough Discard Savoury Cake",
+            id:5,
+            source:"https://www.youtube.com/watch?v=9hZQ3K2SMtI&ab_channel=Munchies",
+            conponent:"Naan",
+            photoUrl:"https://i.ibb.co/m8dzncL/Savory-cakes-shrunk-jpg.webp",
+            recipe:[
+                {ingred: "Sourdough Discard", weight: 200},
+                {ingred: "Eggs ", weight: 90},
+                {ingred: "Milk", weight: 60}, 
+                {ingred: "Plain Flour", weight: 60},
+                {ingred: "Oil", weight: 50},
+                {ingred: "Salt", weight: 5},
+                {ingred: "Peppe", weight: 10},
+                {ingred: "Chilli Flakes", weight: 10}
+
+            ],
+            inclusions:[],
+            quantity:[1,2,3]
         }
 
 
