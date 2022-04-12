@@ -4,7 +4,7 @@ export default {
             flavour: "Open-Crumb Loaf",
             id:0,
             source:"https://www.youtube.com/watch?v=HlJEjW-QSnQ&ab_channel=FullProofBaking",
-            conponent:"OpenCrumb",
+            conponent:"single",
             photoUrl:"https://i.ibb.co/CnGG4zp/BFDB22-CF-4677-4-E69-82-E3-10-D9-C49-F5-E87-16839-0000057-D966-A2-A04.jpg",
             recipe:[
                 {ingred: "Bread Flour", weight: 330},
@@ -67,7 +67,7 @@ export default {
             flavour: "Pita Pockets",
             id:1,
             source:"https://www.youtube.com/watch?v=M48dZTOd2jY&t=95s&ab_channel=AutumnKitchen",
-            conponent:"PitaPocket",
+            conponent:"single",
             photoUrl:"https://i.ibb.co/p3RqWh0/Pita-bread.jpg",
             recipe:[
                 {ingred: "Bread Flour", weight: 33},
@@ -85,7 +85,7 @@ export default {
             flavour: "Sourdough Naan",
             id:2,
             source:"https://zestysouthindiankitchen.com/sourdough-naan/?fbclid=IwAR2Rj3L7snLw7yiJl6KU9jeIboMU237Yg1ORSKZc5HXzxI9XYHeXlwRn1NU",
-            conponent:"Naan",
+            conponent:"single",
             photoUrl:"https://i.ibb.co/X7wYhrF/gluten-free-naan-bread-recipe-featured-735x490.jpg",
             recipe:[
                 {ingred: "All Purpose Flour", weight: 15.625},
@@ -105,7 +105,7 @@ export default {
             flavour: "Sourdough Focaccia",
             id:3,
             source:"https://alexandracooks.com/2019/03/22/simple-sourdough-focaccia-a-beginners-guide/",
-            conponent:"Naan",
+            conponent:"single",
             photoUrl:"https://i.ibb.co/VLc6rM0/cutbread-alexandraskitchen.jpg",
             recipe:[
                 {ingred: "Water", weight: 440},
@@ -121,7 +121,7 @@ export default {
             flavour: "Sourdough Pizza",
             id:4,
             source:"https://alexandracooks.com/2020/05/01/simple-sourdough-pizza-a-step-by-step-guide/",
-            conponent:"Naan",
+            conponent:"single",
             photoUrl:"https://i.ibb.co/LnmqQ6C/theperfectloaf-sourdough-pizza-dough-20.jpg",
             recipe:[
                 {ingred: "Water", weight: 95},
@@ -136,7 +136,32 @@ export default {
             flavour: "Sourdough Discard Savoury Cake",
             id:5,
             source:"https://www.youtube.com/watch?v=9hZQ3K2SMtI&ab_channel=Munchies",
-            conponent:"Naan",
+            conponent:"single",
+            photoUrl:"https://i.ibb.co/m8dzncL/Savory-cakes-shrunk-jpg.webp",
+            recipe:[
+                {ingred: "Sourdough Discard", weight: 200},
+                {ingred: "Eggs ", weight: 90},
+                {ingred: "Milk", weight: 60}, 
+                {ingred: "Plain Flour", weight: 60},
+                {ingred: "Oil", weight: 40},
+                {ingred: "Baking Powder", weight: 8},
+                {ingred: "Salt", weight: 5},
+                {ingred: "Pepper", weight: 10},
+                {ingred: "Chilli Flakes", weight:10},
+                {ingred: "Mixed Vegetables", weight: 50},
+                {ingred: "Cheese", weight: 50},
+                {ingred: "Bacon Bits", weight: 25},
+                {ingred: "Jalapenos", weight: 25},
+                {ingred: "Whatever is in the fridge", weight: 50}
+            ],
+            inclusions:[],
+            quantity:[1,2,3]
+        },
+        {
+            flavour: "Yudane Loaf",
+            id:6,
+            source:"https://www.youtube.com/watch?v=9hZQ3K2SMtI&ab_channel=Munchies",
+            conponent:"multi",
             photoUrl:"https://i.ibb.co/m8dzncL/Savory-cakes-shrunk-jpg.webp",
             recipe:[
                 {ingred: "Sourdough Discard", weight: 200},

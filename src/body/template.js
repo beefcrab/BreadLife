@@ -3,10 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWindowMaximize } from '@fortawesome/free-solid-svg-icons'
 import "./template.css"
 
-
 import GenerateRecipe from "../component/generate-recipe"
 import Quantity from '../component/generate-quantityButtons';
-
 
 import {Context} from "../Context"
 
@@ -117,11 +115,13 @@ function Template(){
            
             <div className="ingredients"><h3>INGREDIENTS</h3></div>
 
+
+            {/* recipe list generated here */}
             <GenerateRecipe 
                 recipe={recipe}
                 loaves={loaves}
             />
-
+            {/* checks to see if recipe has flavour inclusions */}
             {
                 flavourRecipes.length > 0 ?
                 selectFlav() :
