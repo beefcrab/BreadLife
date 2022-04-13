@@ -158,29 +158,43 @@ export default {
             quantity:[1,2,3]
         },
         {
-            flavour: "Yudane Loaf",
+            flavour: "Yudane Soft Loaf",
             id:6,
-            source:"https://www.youtube.com/watch?v=9hZQ3K2SMtI&ab_channel=Munchies",
+            source:"https://www.bakewithpaws.com/2021/03/sourdough-shokupan.html?fbclid=IwAR1jh6f50e8cBw7q5iHaMuvO1JMrBAw5rHmLz_44-m4tfOxqOJGV5L75s4o",
             conponent:"multi",
-            photoUrl:"https://i.ibb.co/m8dzncL/Savory-cakes-shrunk-jpg.webp",
+            photoUrl:"https://i.ibb.co/wYdMScD/Shokupan-Update-2020-43.jpg",
             recipe:[
-                {ingred: "Sourdough Discard", weight: 200},
-                {ingred: "Eggs ", weight: 90},
-                {ingred: "Milk", weight: 60}, 
-                {ingred: "Plain Flour", weight: 60},
-                {ingred: "Oil", weight: 40},
-                {ingred: "Baking Powder", weight: 8},
-                {ingred: "Salt", weight: 5},
-                {ingred: "Pepper", weight: 10},
-                {ingred: "Chilli Flakes", weight:10},
-                {ingred: "Mixed Vegetables", weight: 50},
-                {ingred: "Cheese", weight: 50},
-                {ingred: "Bacon Bits", weight: 25},
-                {ingred: "Jalapenos", weight: 25},
-                {ingred: "Whatever is in the fridge", weight: 50}
+                {con: "Yudane Dough", ingred: "Bread Flour", weight: 65 },
+                {con: "Yudane Dough", ingred: "Boiling Water", weight: 65 },
+                {con: "Sweet Stiff Starter", ingred: "Sourdough Starter", weight: 56 },
+                {con: "Sweet Stiff Starter", ingred: "Bread Flour", weight: 172 },
+                {con: "Sweet Stiff Starter", ingred: "Water", weight: 72 },
+                {con: "Sweet Stiff Starter", ingred: "Sugar", weight: 28 },
+                {con: "Main Dough",ingred: "Bread Flour ", weight: 65},
+                {con: "Main Dough",ingred: "Brown Sugar ", weight: 10},
+                {con: "Main Dough",ingred: "Salt ", weight: 5.7},
+                {con: "Main Dough",ingred: "Whisked Egg", weight: 45},
+                {con: "Main Dough",ingred: "Water", weight: 20},
+                {con: "Main Dough",ingred: "Butter", weight: 30}
             ],
-            inclusions:[],
-            quantity:[1,2,3]
+            inclusions:[
+                {
+                    flavour:  "",
+                    id: 0,
+                    recipe:[
+        
+                    ]
+                },
+                {
+                    flavour:  "Cinnamon Raisin",
+                    id: 1,
+                    recipe:[
+                        {ingred: "Cinnamon", weight: 8},
+                        {ingred: "Raisins", weight: 60}
+                    ]
+                }
+            ],
+            quantity:[1,2]
         }
 
 

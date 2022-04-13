@@ -4,6 +4,7 @@ import { faWindowMaximize } from '@fortawesome/free-solid-svg-icons'
 import "./template.css"
 
 import GenerateRecipe from "../component/generate-recipe"
+import GenerateRecipeMulti from "../component/generate-recipeMulti"
 import Quantity from '../component/generate-quantityButtons';
 
 import {Context} from "../Context"
@@ -15,6 +16,7 @@ function Template(){
     const [click, setClick] = useState(false);
     const [breadFlavour, setBreadFlavour] = useState(0)
     const [flavourRecipes, setFlavourRecipes] = useState(recipeList.data[renderRecipe].inclusions)
+    const [conponent, setConponent] = useState(recipeList.data[renderRecipe].conponent)
     const inclusions = ""
 
     const [buttons, setButtons] = useState(recipeList.data[renderRecipe].quantity)
@@ -35,9 +37,13 @@ function Template(){
         </option>
     ))
 
+    // function to check if recipe has different flavours
     function selectFlav(){
         if(breadFlavour == 0){      
+            //if no flavour, then continue
+            
         }else{
+            //if there are falvours, do this
             const flavourArray = []
             flavourRecipes[breadFlavour].recipe.map((ingred, i) =>{
                 flavourArray.push({
@@ -49,6 +55,7 @@ function Template(){
                 <GenerateRecipe 
                     recipe={flavourArray}
                     loaves={loaves}
+                    conponent={conponent}
                 />
 
             )
@@ -115,18 +122,33 @@ function Template(){
            
             <div className="ingredients"><h3>INGREDIENTS</h3></div>
 
-
-            {/* recipe list generated here */}
-            <GenerateRecipe 
-                recipe={recipe}
-                loaves={loaves}
-            />
             {/* checks to see if recipe has flavour inclusions */}
             {
                 flavourRecipes.length > 0 ?
                 selectFlav() :
                 <p></p>
             }
+
+            {/* recipe list generated here */}
+            {/* if recipe is multi con or single */}
+            {console.log(recipeList.data[renderRecipe].conponent)}
+
+            {
+                recipeList.data[renderRecipe].conponent === "single" ? 
+                <GenerateRecipe 
+                    recipe={recipe}
+                    loaves={loaves}
+                />  :
+                <GenerateRecipeMulti 
+                    recipe={recipe}
+                    loaves={loaves}
+                    conponent={conponent}
+                /> 
+
+            }
+
+
+
             
 
         </div>

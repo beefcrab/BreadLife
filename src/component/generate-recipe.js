@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 
-function GenerateRecipe({recipe, loaves}){
-
+function GenerateRecipe({recipe, loaves, conponent}){
 
     const ingredietsDisplay = recipe.map((oldrecipe, i) => (
         <li key={i} >{recipe[i].ingred}  <b>({recipe[i].weight * loaves + " g"})</b> </li>
@@ -9,11 +8,9 @@ function GenerateRecipe({recipe, loaves}){
 
     return(
         <div className="ingred-container">
-            {/* <div className="row"> */}
-                <ul className="labels">
-                    {ingredietsDisplay}
-                </ul>
-            {/* </div> */}
+            <ul className="labels">
+                {ingredietsDisplay}
+            </ul> 
         </div>
     )
 }
