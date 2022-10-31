@@ -104,15 +104,16 @@ export default {
         {
             flavour: "Sourdough Focaccia",
             id:3,
-            source:"https://alexandracooks.com/2019/03/22/simple-sourdough-focaccia-a-beginners-guide/",
+            source:"https://www.instagram.com/stories/highlights/17922969151530707/",
             conponent:"single",
             photoUrl:"https://i.ibb.co/VLc6rM0/cutbread-alexandraskitchen.jpg",
             recipe:[
                 {ingred: "Water", weight: 440},
                 {ingred: "Sourdough Starter", weight: 100},
                 {ingred: "Salt", weight: 10}, 
-                {ingred: "Bread Flour", weight: 512},
-                {ingred: "Olive Oil", weight: 40},      
+                {ingred: "Bread Flour", weight: 530},
+                {ingred: "Olive Oil", weight: 40}, 
+                {ingred: "Honey", weight: 40}       
             ],
             inclusions:[],
             quantity:[1,2]
