@@ -95,8 +95,7 @@ export default {
                 {ingred: "Milk", weight: 12.5},
                 {ingred: "Sugar", weight: .625},
                 {ingred: "Salt", weight: .625},    
-                {ingred: "Baking Soda", weight: .3125},
-      
+                {ingred: "Baking Soda", weight: .3125}
             ],
             inclusions:[],
             quantity:[4,6,8,10,12]
