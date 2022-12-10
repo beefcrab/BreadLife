@@ -27,7 +27,7 @@ export default {
                     id: 1,
                     recipe:[
                         {ingred: "Cheese", weight: 64},
-                        {ingred: "Jalapenos", weight: 32},
+                        {ingred: "Jalapenos", weight: 25},
                         {ingred: "Rosemary", weight: 16}
                     ]
                 },
